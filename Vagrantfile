@@ -74,6 +74,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # SHELL
   config.vm.provision "shell", inline: <<-SHELL
     sudo apt-get update
-    sudo apt-get install -y vim git
+    sudo apt-get install -y vim git youtube-dl
   SHELL
 end
