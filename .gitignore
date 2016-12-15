@@ -122,3 +122,7 @@ sftp-config.json
 ### Vagrant ###
 .vagrant/
 
+### Custom ###
+# Vagrant/VM log files
+/*.log
+
