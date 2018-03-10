@@ -48,7 +48,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # config.vm.synced_folder "../data", "/vagrant_data"
   config.vm.synced_folder ".", "/vagrant", disabled: true
   config.vm.synced_folder "shared/", "/shared", id: "shared"
-  config.vm.synced_folder "shared/downloads/", "/home/ubuntu/Downloads", id: "downloads"
+  config.vm.synced_folder "shared/downloads/", "/home/vagrant/Downloads", id: "downloads"
 
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
